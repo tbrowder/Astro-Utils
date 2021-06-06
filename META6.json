@@ -1,0 +1,25 @@
+{
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Provides utility functions for astronomical calculations",
+  "license": "Artistic-2.0",
+  "name": "Astro::Utils",
+  "perl": "6.d",
+  "provides": {
+    "Astro::Utils": "lib/Astro/Utils.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}

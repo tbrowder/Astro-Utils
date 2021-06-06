@@ -1,0 +1,30 @@
+=begin pod
+
+=head1 NAME
+
+B<Astro::Utils> - Provides utility functions for astronomical calculations
+
+=head1 SYNOPSIS
+
+=begin code :lang<raku>
+
+use Astro::Utils;
+
+=end code
+
+=head1 DESCRIPTION
+
+B<Astro::Utils> is a collection of utility functions from several popular
+astronomy-related books by authors such as Meeus and Lawrence.
+
+=head1 AUTHOR
+
+Tom Browder (tbrowder@cpan.org)
+
+=head1 COPYRIGHT and LICENSE
+
+Copyright © 2021 Tom Browder
+
+This library is free software; you may redistribute or modify it under the Artistic License 2.0.
+
+=end pod
