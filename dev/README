@@ -1,0 +1,8 @@
+The immediate goal is to be able to take the default
+coordinate data from Perl's Astro::Montenbruck's 
+'script/simple_ephem.pl' and use coordinate and number format data to
+duplicate the data produced for the 'script/planpos.pl'
+file run for a location at Greenwich.
+
+Need to port CoCo.pm, MathUtils.pm, and Time.pm to Raku, with tests.
+
