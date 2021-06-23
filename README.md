@@ -11,16 +11,16 @@ SYNOPSIS
 ```raku
 use Astro::Utils :ALL;
 my $x = 1.234;
-my $x = 5.5678;
-say Frac $x;
-say Modulo $x, $y;
-say Modulo $y, $x;
+my $y = 5.5678;
+say Frac $x;       # OUTPUT: «0.234␤»
+say Modulo $x, $y; # OUTPUT: «1.234␤»
+say Modulo $y, $x; # OUTPUT: «0.6318␤»
 ```
 
 DESCRIPTION
 ===========
 
-Raku module **Astro::Utils** is a collection of utility functions from several popular astronomy-related books by authors such as *Montenbruck*, *Meeus*, and *Lawrence*. Also included are functions from Perl module [Astro::Montenbruck](https://github.com/skrushinsky/astro-montenbruck)
+Raku module **Astro::Utils** is a collection of utility functions from several popular astronomy-related books by authors such as *Montenbruck*, *Meeus*, and *Lawrence*. Also included are functions from Perl module [Astro::Montenbruck](https://github.com/skrushinsky/astro-montenbruck).
 
 Exported functions
 ------------------
