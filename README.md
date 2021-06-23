@@ -53,7 +53,9 @@ From [https://eclipse.gsfc.nasa.gov/SEhelp/deltatpoly2004.html](https://eclipse.
 
 The orbital positions of the Sun and Moon required by eclipse predictions, are calculated using Terrestrial Dynamical Time (TD) because it is a uniform time scale. However, world time zones and daily life are based on Universal Time[1] (UT). In order to convert eclipse predictions from TD to UT, the difference between these two time scales must be known. The parameter delta-T (ΔT) is the arithmetic difference, in seconds, between the two as:
 
-    ΔT = TD - UT
+```raku
+ΔT = TD - UT
+```
 
 ### delta-T2
 
@@ -66,7 +68,7 @@ Also returns ΔT (see routine `delta-T`), but using code based on the `delta_t` 
 ### dayfrac2hms
 
 ```raku
-dayfrac2hms($dayfraction is copy --> List) is export(:dayfrac2hms) {...}
+sub dayfrac2hms($dayfraction is copy --> List) is export(:dayfrac2hms) {...}
 ```
 
 Returns the `$dayfraction` as a list of `hours` (Int), `minutes` (Int), and `minutes` (Real) (from Ref. 2).
@@ -76,7 +78,7 @@ Returns the `$dayfraction` as a list of `hours` (Int), `minutes` (Int), and `min
 ### polynome
 
 ```raku
-sun polynome($t, @terms) is export(:polynome) {...}
+sub polynome($t, @terms) is export(:polynome) {...}
 ```
 
 Calculates the polynomial `a0*t**0 + a1*t**1 + a2*t**2 + a3*t**3...` using code based on the `polynome` function from Ref. 3, file '../Montenbruck/MathUtils.pm'.
