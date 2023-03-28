@@ -1,11 +1,13 @@
 {
-  "auth": "cpan:TBROWDER",
+  "auth": "zef:tbrowder",
   "authors": [
     "Tom Browder"
   ],
   "build-depends": [
   ],
   "depends": [
+    "Math::FractionalPart",
+    "Math::Trig:auth<zef:tbrowder>:ver<0.5.1>"
   ],
   "description": "Provides utility functions for astronomical calculations",
   "license": "Artistic-2.0",

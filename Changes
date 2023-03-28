@@ -1,6 +1,9 @@
 Revision history for Astro-Utils
 
 {{$NEXT}}
+    - Rakuize file name extensions
+    - Use separate OS workflow tests
+    - Move to Zef Raku module repo
 
 0.0.1  2021-06-18T18:19:32-05:00
     - Initial version

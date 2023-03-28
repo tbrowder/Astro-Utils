@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/tbrowder/Astro-Utils/workflows/test/badge.svg)](https://github.com/tbrowder/Astro-Utils/actions)
+[![Actions Status](https://github.com/tbrowder/Astro-Utils/actions/workflows/linux.yml/badge.svg)](https://github.com/tbrowder/Astro-Utils/actions) [![Actions Status](https://github.com/tbrowder/Astro-Utils/actions/workflows/macos.yml/badge.svg)](https://github.com/tbrowder/Astro-Utils/actions) [![Actions Status](https://github.com/tbrowder/Astro-Utils/actions/workflows/windows.yml/badge.svg)](https://github.com/tbrowder/Astro-Utils/actions)
 
 NAME
 ====
