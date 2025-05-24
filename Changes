@@ -1,6 +1,9 @@
 Revision history for Astro-Utils
 
 {{$NEXT}}
+    - Update copyright date
+    - Tweak docs
+    - Correct workflows tests
 
 0.0.2  2023-03-28T15:11:01-05:00
     - Rakuize file name extensions

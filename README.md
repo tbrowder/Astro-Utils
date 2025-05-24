@@ -97,12 +97,12 @@ References
 AUTHOR
 ======
 
-Tom Browder (tbrowder@cpan.org)
+Tom Browder (tbrowder@acm.org)
 
 COPYRIGHT and LICENSE
 =====================
 
-Copyright © 2021 Tom Browder
+Copyright © 2021, 2023, 2025 Tom Browder
 
 This library is free software; you may redistribute or modify it under the Artistic License 2.0.
 
