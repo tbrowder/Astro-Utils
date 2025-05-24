@@ -1,6 +1,8 @@
 Revision history for Astro-Utils
 
 {{$NEXT}}
+
+0.0.3  2025-05-24T16:04:18-05:00
     - Update copyright date
     - Tweak docs
     - Correct workflows tests
